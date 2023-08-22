@@ -9,11 +9,11 @@ with st.sidebar:
     st.title("🦙💬 Llama 2 Chatbot")
     st.header("Settings")
 
-    add_replicate_api = st.text_input('Enter the Replicate API token', type='password')
-    if not (add_replicate_api.startswith('r8_') and len(add_replicate_api) == 40):
-        st.warning('Please enter your credentials', icon='⚠️')
-    else:
-        st.success('Proceed to entering your prompt message!', icon='👉')
+    add_replicate_api = "r8_C2gK47B4AVxPGOctHhVYyz6XYOTSy9O0mmQnI"# st.text_input('Enter the Replicate API token', type='password')
+    # if not (add_replicate_api.startswith('r8_') and len(add_replicate_api) == 40):
+    #     st.warning('Please enter your credentials', icon='⚠️')
+    # else:
+    #     st.success('Proceed to entering your prompt message!', icon='👉')
 
     st.subheader("Models and Parameters")
 
